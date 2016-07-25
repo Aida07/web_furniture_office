@@ -1,0 +1,6 @@
+[
+	{"id":1, "img":"img/livingroom.jpg", "title":"Livingroom"},
+	{"id":2, "img":"img/diningroom.jpg", "title":"Diningroom"},
+	{"id":3, "img":"img/bedroom.jpg", "title":"Bedroom"},
+	{"id":4, "img":"img/homeoffice.jpg", "title":"HomeOffice"}
+]

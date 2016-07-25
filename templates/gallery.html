@@ -1,0 +1,31 @@
+
+	<header-directive></header-directive>
+
+	<nav class="nav has-shadow">
+	  <div class="container">
+	    <div class="nav-left">
+	      <a class="nav-item is-tab" ng-click="query = {}">All</a>
+	      <a class="nav-item is-tab" ng-click="query = {'title': 'Diningroom'}">DiningRoom</a>
+	      <a class="nav-item is-tab" ng-click="query = {'title': 'Bedroom'}">BedRoom</a>
+	      <a class="nav-item is-tab" ng-click="query = {'title': 'Home Office'}">Home Office</a>
+	      <a class="nav-item is-tab" ng-click="query = {'title': 'Livingroom'}">LivingRoom</a>
+	      </div>
+	    <div class="nav-right">
+	      <li class="nav-item">Search:</li>
+	      <input class="nav-item is-tab" type="text" placeholder="Search" ng-model="title">
+	    </div>
+	  </div>
+
+	</nav>
+
+	<div class="container">
+	<div class="row">
+
+	<div ng-repeat="gallery in gallery | filter: query | filter: title" class="col-sm-3">
+		 <img ng-src="{{gallery.img}}">
+		   <h4>{{gallery.title}}</h4>
+	</div>
+	</div>
+	</div>
+	<footer-directive></footer-directive>
+

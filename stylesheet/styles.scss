@@ -1,0 +1,136 @@
+$color: #243565;
+
+#menubar {
+  margin-top: 30px; }
+* {
+  font-family: 'Dancing Script', cursive;
+}
+li {
+  display: inline;
+  margin-right: 25px; }
+
+li a:link {
+  text-decoration: none;
+  color: grey; }
+
+li a:visited {
+  text-decoration: none;
+  color: #666; }
+
+li a:active {
+  text-decoration: none;
+  color: #110606; }
+
+li a:hover {
+  text-decoration: none;
+  color: $color; }
+
+.buscar {
+  margin-top: 30px;
+}
+
+.buscarInput {
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#slide {
+  width: 100%;
+  height: 500px; }
+
+.photoline {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+ }
+
+#photolineText {
+  display: block;
+  margin: 0 auto;
+}
+
+#fourbox {
+  padding-top: 20px;
+  background-color: #d7dfdf;
+}
+
+#fourbox h2 {
+  text-align: center;
+  }
+
+#partners {
+  padding: 20px;
+}
+
+footer {
+  background-color: $color;
+  color: white;
+}
+
+
+#container {
+  background: rgba(0,0,0,0.5);
+  background-color: #d7dfdf;
+  //position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height:100%;
+  display: none;
+}
+
+#containerForm {
+  text-align: center;
+  margin: 100px auto;
+  position:absolute;
+  left:500px;
+  top:50px;
+  background-color: $color;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 101;
+  display: none;
+  width: 500px;
+}
+
+#sizeinput {
+  width: 250px;
+  color: black;
+}
+
+.livingroom {
+  background-color: #d7dfdf;
+  text-align: center;
+}
+
+.contact-item {
+  border-bottom: thin solid #ccc;
+  padding: 10px;
+
+}
+
+.carouselImg {
+  width: 100%;
+  height: 400px !important;
+}
+
+#mostrar {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+
+#logo {
+  color: $color;
+}
+
+.searchButton {
+  background-color: $color;
+  color: white;
+}
+
+.card{
+  display: inline;
+}
